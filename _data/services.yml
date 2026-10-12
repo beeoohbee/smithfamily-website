@@ -1,0 +1,48 @@
+# Each group shows as a section on the Services page.
+# "icon" is any emoji; "featured: true" also shows the item on the homepage.
+- group: For Small Businesses
+  id: business
+  items:
+    - title: Websites & Online Presence
+      icon: "🌐"
+      featured: true
+      summary: >-
+        Simple, fast websites, Google Business Profile setup, and domain &
+        email configuration so customers can find you.
+    - title: IT & Tech Support
+      icon: "💻"
+      featured: true
+      summary: >-
+        Computer setup, Wi-Fi and networking, backups, security, and help
+        choosing the right software for your shop or office.
+    - title: Bookkeeping & Admin
+      icon: "📒"
+      featured: true
+      summary: >-
+        Monthly bookkeeping, invoicing, payroll prep, and getting your
+        records organized before tax time.
+    - title: Marketing & Social Media
+      icon: "📣"
+      summary: >-
+        Logos, flyers, social media posts, and straightforward marketing
+        plans that fit a small-town budget.
+
+- group: For Families
+  id: families
+  items:
+    - title: Home Tech Help
+      icon: "🏠"
+      featured: true
+      summary: >-
+        Setting up new devices, smart TVs, printers, and home Wi-Fi — plus
+        patient one-on-one help learning to use them.
+    - title: Family Organization
+      icon: "🗂️"
+      summary: >-
+        Household budgets, digital photo organization, important-document
+        storage, and getting the family calendar under control.
+    - title: Online Safety
+      icon: "🔒"
+      summary: >-
+        Parental controls, password managers, and scam awareness for kids,
+        parents, and grandparents alike.

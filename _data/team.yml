@@ -1,0 +1,29 @@
+# One entry per family member. Edit names, roles and bios to match.
+# "photo" is optional — put images in assets/img/ and use e.g. /assets/img/bob.jpg
+- name: Bob Smith
+  role: Technology & Websites
+  bio: >-
+    Helps local businesses get online and stay running — websites, email,
+    computers, networks, and the software that ties it all together.
+  photo: ""
+
+- name: Family Member
+  role: Bookkeeping & Small Business Admin
+  bio: >-
+    Keeps the books balanced and the paperwork under control so owners can
+    focus on their customers.
+  photo: ""
+
+- name: Family Member
+  role: Marketing & Social Media
+  bio: >-
+    Helps businesses tell their story with clear branding, social media, and
+    simple marketing that brings in real customers.
+  photo: ""
+
+- name: Family Member
+  role: Home & Family Support
+  bio: >-
+    Lends a hand to families with home technology, organizing, and the
+    everyday projects that are easier with a little help.
+  photo: ""

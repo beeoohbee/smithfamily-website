@@ -1,0 +1,55 @@
+---
+layout: default
+description: Family know-how for small businesses and families in and around Cameron, Missouri.
+---
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">Cameron, Missouri &middot; Neighbors helping neighbors</p>
+    <h1>Real skills from a local family, put to work for <em>your</em> business and home.</h1>
+    <p class="lead">We're the Smiths — a family with a mix of experience in technology, business, and everyday problem-solving. We use it to help small businesses and families around Cameron get things done.</p>
+    <div class="hero-actions">
+      <a class="btn" href="{{ '/services/' | relative_url }}">See Our Services</a>
+      <a class="btn btn-outline" href="{{ '/about/' | relative_url }}">Meet the Family</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>How we can help</h2>
+      <p>A few of the things neighbors call us about most.</p>
+    </div>
+    <div class="card-grid">
+      {% for group in site.data.services %}
+        {% for item in group.items %}
+          {% if item.featured %}
+          <a class="card card-link" href="{{ '/services/' | relative_url }}#{{ group.id }}">
+            <span class="card-icon" aria-hidden="true">{{ item.icon }}</span>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.summary }}</p>
+          </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+    <p class="center"><a class="text-link" href="{{ '/services/' | relative_url }}">View all services &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container why">
+    <div>
+      <h2>Why work with a family?</h2>
+      <p>Because we live here too. When you work with us, you get people who care about their reputation in town, who'll pick up the phone, and who'll still be around next year.</p>
+    </div>
+    <ul class="checklist">
+      <li><strong>Local.</strong> Based in Cameron and happy to meet in person.</li>
+      <li><strong>Honest.</strong> If something isn't worth your money, we'll say so.</li>
+      <li><strong>Plain-spoken.</strong> We explain things without the jargon.</li>
+      <li><strong>Many hands.</strong> Different family members, different strengths — one point of contact.</li>
+    </ul>
+  </div>
+</section>
+
+{% include cta.html %}

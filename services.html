@@ -1,0 +1,40 @@
+---
+layout: page
+title: Services
+subtitle: Practical help for local businesses and families.
+permalink: /services/
+cta: true
+description: Websites, IT support, bookkeeping, marketing, and home tech help for small businesses and families around Cameron, Missouri.
+---
+<nav class="service-jump" aria-label="Service categories">
+  {% for group in site.data.services %}
+    <a href="#{{ group.id }}">{{ group.group }}</a>
+  {% endfor %}
+</nav>
+
+{% for group in site.data.services %}
+<section class="service-group" id="{{ group.id }}">
+  <h2>{{ group.group }}</h2>
+  <div class="card-grid">
+    {% for item in group.items %}
+    <article class="card">
+      <span class="card-icon" aria-hidden="true">{{ item.icon }}</span>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.summary }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<section class="service-group">
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li><strong>Reach out.</strong> Send us an email describing what you need.</li>
+    <li><strong>We talk it through.</strong> A quick call or coffee in Cameron to understand the problem.</li>
+    <li><strong>Clear quote.</strong> You get a plain-English plan and price before any work starts.</li>
+    <li><strong>We get it done</strong> — and stick around if you need us later.</li>
+  </ol>
+  <p>Don't see what you need? Ask anyway — chances are someone in the family can help or knows who can.</p>
+</section>
+

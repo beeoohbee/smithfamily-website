@@ -1,0 +1,37 @@
+title: Smith Family Co.
+tagline: Family know-how for your business and home
+description: >-
+  The Smith family puts our skills to work for small businesses and families
+  in and around Cameron, Missouri.
+url: "https://smithfamily.co"
+baseurl: ""
+lang: en-US
+
+contact:
+  email: hello@smithfamily.co
+  phone: ""            # e.g. "(816) 555-0123"
+  location: Cameron, Missouri
+
+service_area: Cameron, Kingston, Hamilton, Plattsburg, Maysville, Lathrop, and the surrounding Clinton, DeKalb, Caldwell & Daviess County area
+
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Services
+    url: /services/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+destination: public
+
+exclude:
+  - .idea
+  - .gitlab-ci.yml
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
