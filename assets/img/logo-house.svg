@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72" role="img" aria-label="Smith Family Co.">
+  <g transform="translate(4 4)">
+    <rect width="64" height="64" rx="14" fill="#2f5d50"/>
+    <polyline points="13,29 32,13 51,29" fill="none" stroke="#c8963e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="32" y="55" font-family="Merriweather, Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" text-anchor="middle" fill="#f7f3ec">S</text>
+  </g>
+  <text x="84" y="40" font-family="Merriweather, Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" fill="#1f2a27">Smith Family<tspan fill="#c8963e">.co</tspan></text>
+  <text x="85" y="61" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="2.4" fill="#5b6764">CAMERON, MISSOURI</text>
+</svg>

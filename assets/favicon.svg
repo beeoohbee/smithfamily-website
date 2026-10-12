@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#2f5d50"/><text x="32" y="45" font-family="Georgia,serif" font-size="38" font-weight="700" text-anchor="middle" fill="#f4efe6">S</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 73" role="img" aria-label="Smith Family Co.">
+    <path d="M32 2 L60 9.5 V35 C60 54 47 65 32 71 C17 65 4 54 4 35 V9.5 Z" fill="#708090"/>
+    <path d="M32 7 L55 13.2 V35 C55 50.5 44.5 59.8 32 65.2 C19.5 59.8 9 50.5 9 35 V13.2 Z" fill="#000080"/>
+    <path d="M32 10.5 L51.5 15.8 V35 C51.5 48.6 42.4 56.9 32 61.4 C21.6 56.9 12.5 48.6 12.5 35 V15.8 Z" fill="none" stroke="#ffffff" stroke-width="1"/>
+    <text x="32" y="48" font-family="Merriweather, Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" text-anchor="middle" fill="#ffffff">S</text>
+</svg>
