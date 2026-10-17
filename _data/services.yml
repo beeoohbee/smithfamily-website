@@ -15,17 +15,94 @@
       summary: >-
         Computer setup, Wi-Fi and networking, backups, security, and help
         choosing the right software for your shop or office.
-    - title: Bookkeeping & Admin
-      icon: "📒"
-      featured: true
-      summary: >-
-        Monthly bookkeeping, invoicing, payroll prep, and getting your
-        records organized before tax time.
     - title: Marketing & Social Media
       icon: "📣"
       summary: >-
         Logos, flyers, social media posts, and straightforward marketing
         plans that fit a small-town budget.
+
+- group: Cookies
+  id: cookies
+  items:
+    - title: Homemade Cookies
+      icon: "🍪"
+      summary: >-
+        Fresh-baked cookies by the dozen — classic chocolate chip, sugar,
+        oatmeal, and seasonal favorites. Just ask what's in the oven.
+    - title: Custom Decorated Cookies
+      icon: "🎨"
+      summary: >-
+        Hand-decorated cookies for birthdays, weddings, showers, holidays,
+        and graduations, made to match your theme and colors.
+    - title: Cookie Trays for Events
+      icon: "🎉"
+      summary: >-
+        Cookie trays and party favors for church gatherings, school events,
+        business meetings, and parties of any size.
+
+- group: Soccer Coaching
+  id: soccer
+  items:
+    - title: Soccer Training
+      icon: "⚽"
+      summary: >-
+        Individual and small-group training sessions focused on ball control,
+        passing, shooting, footwork, and fitness for players of all ages.
+    - title: Soccer Mentoring
+      icon: "🤝"
+      summary: >-
+        Guidance for young players on game sense, confidence, teamwork, and
+        sportsmanship, plus advice on moving up to club and high school teams.
+
+- group: Tutoring & Music Lessons
+  id: tutoring
+  items:
+    - title: Saxophone Lessons
+      icon: "🎷"
+      summary: >-
+        Private saxophone lessons for beginners through advanced players —
+        technique, tone, reading music, and preparing for band, jazz band,
+        and auditions.
+    - title: Trumpet Lessons
+      icon: "🎺"
+      summary: >-
+        Private trumpet lessons for beginners through advanced players —
+        breathing, embouchure, range, reading music, and preparing for band,
+        jazz band, and auditions.
+    - title: Math Tutoring
+      icon: "➗"
+      summary: >-
+        Patient help with math classes from pre-algebra and algebra through
+        geometry, trigonometry, and calculus, plus homework support.
+    - title: Science Tutoring
+      icon: "🔬"
+      summary: >-
+        Tutoring for science classes like biology, chemistry, and physics,
+        building real understanding instead of just memorizing.
+    - title: ACT Prep & Test-Taking Strategies
+      icon: "📝"
+      summary: >-
+        Focused ACT preparation with practice tests, plus proven strategies
+        for pacing, process of elimination, and staying calm on test day.
+
+- group: Farm & Mechanical
+  id: farm-mechanical
+  items:
+    - title: Farm Hand Help
+      icon: "🚜"
+      summary: >-
+        Reliable help around the farm — feeding and caring for livestock,
+        fencing, hauling hay, field work, and seasonal chores.
+    - title: Small Engine Repair
+      icon: "🔧"
+      summary: >-
+        Tune-ups and repairs for mowers, tillers, chainsaws, trimmers,
+        generators, and other small engines.
+    - title: Mechanic Work
+      icon: "🛠️"
+      summary: >-
+        Routine maintenance and repairs for cars, trucks, ATVs, and farm
+        equipment — oil changes, brakes, diagnostics, and more.
 
 - group: For Families
   id: families
@@ -46,3 +123,37 @@
       summary: >-
         Parental controls, password managers, and scam awareness for kids,
         parents, and grandparents alike.
+
+- group: Honey Bees
+  id: bees
+  items:
+    - title: Bee Swarm & Hive Removal
+      icon: "🐝"
+      featured: true
+      summary: >-
+        Live, humane removal of swarms and established colonies from trees,
+        walls, sheds, and outbuildings, relocated to our own apiary.
+    - title: Local Raw Honey
+      icon: "🍯"
+      summary: >-
+        Raw, unfiltered honey from our own hives around Cameron. Ask about
+        what's available this season and pickup options.
+
+- group: Learn Beekeeping
+  id: beekeeping-lessons
+  items:
+    - title: Beginner Beekeeping Lessons
+      icon: "📚"
+      summary: >-
+        Hands-on lessons covering bee biology, choosing equipment, setting up
+        your first hive, and what to expect through the seasons.
+    - title: One-on-One Hive Mentoring
+      icon: "🧑‍🌾"
+      summary: >-
+        Personal tutoring at your own hives — inspections, spotting disease
+        and pests, queen health, and getting your colonies through winter.
+    - title: Bee Talks & Hive Visits
+      icon: "🏫"
+      summary: >-
+        Fun, educational visits for schools, 4-H, scouts, and community
+        groups to learn how honey bees live and why they matter.

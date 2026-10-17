@@ -1,29 +1,47 @@
 # One entry per family member. Edit names, roles and bios to match.
 # "photo" is optional — put images in assets/img/ and use e.g. /assets/img/bob.jpg
 - name: Bob Smith
-  role: Technology & Websites
+  role: Business Tech, Home Tech & Beekeeping
   bio: >-
-    Helps local businesses get online and stay running — websites, email,
-    computers, networks, and the software that ties it all together.
+    Helps local businesses get online, stay running, and get noticed with
+    websites, IT, and marketing. Also helps families with home tech and
+    online safety, and tends the family's honey bees: swarm removal, raw
+    honey, and beekeeping lessons.
   photo: ""
 
-- name: Family Member
-  role: Bookkeeping & Small Business Admin
+- name: Kate Smith
+  role: Family Organization & Cookies
   bio: >-
-    Keeps the books balanced and the paperwork under control so owners can
-    focus on their customers.
+    Helps families get organized — household budgets, digital photos,
+    important documents, and the family calendar. Also bakes homemade and
+    custom decorated cookies for any occasion.
   photo: ""
 
-- name: Family Member
-  role: Marketing & Social Media
+- name: Zaiden Smith
+  role: Farm Hand, Mechanic & Beekeeping
   bio: >-
-    Helps businesses tell their story with clear branding, social media, and
-    simple marketing that brings in real customers.
+    Lends a hand around the farm and keeps things running with small engine
+    repair and mechanic work. Also helps with the bees: swarm and hive
+    removal, honey, and teaching beekeeping.
   photo: ""
 
-- name: Family Member
-  role: Home & Family Support
+- name: Landyn Smith
+  role: Tutoring, Saxophone & Soccer
   bio: >-
-    Lends a hand to families with home technology, organizing, and the
-    everyday projects that are easier with a little help.
+    Tutors math and science, preps students for the ACT with proven
+    test-taking strategies, teaches saxophone, and coaches soccer.
+  photo: ""
+
+- name: Ethan Smith
+  role: Trumpet & Soccer
+  bio: >-
+    Teaches trumpet lessons for players of all levels and helps soccer
+    players build their skills, confidence, and love of the game.
+  photo: ""
+
+- name: Ian Smith
+  role: Soccer & Saxophone
+  bio: >-
+    Trains and mentors soccer players and teaches saxophone lessons, from
+    first notes to band and jazz band.
   photo: ""
