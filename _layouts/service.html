@@ -1,0 +1,18 @@
+---
+layout: page
+---
+<p class="breadcrumb"><a href="{{ '/services/' | relative_url }}">&larr; All services</a></p>
+
+{{ content }}
+
+{% if page.people %}
+<section class="service-group service-people">
+  <h2>Who you'll work with</h2>
+  <div class="team-grid">
+    {% for name in page.people %}
+      {% assign person = site.data.team | where: "name", name | first %}
+      {% if person %}{% include team-card.html person=person %}{% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

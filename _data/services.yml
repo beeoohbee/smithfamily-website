@@ -1,6 +1,7 @@
 # Each group shows as a section on the Services page.
 # "icon" is any emoji; "featured: true" also shows the item on the homepage;
-# "url" links the card to its own page and adds a "Learn more" button.
+# "url" links the card to its own page and adds a "Learn more" button; a
+# group-level "url" does the same for every card in that group.
 - group: For Small Businesses
   id: business
   items:
@@ -14,11 +15,13 @@
     - title: IT & Tech Support
       icon: "💻"
       featured: true
+      url: /services/it-support/
       summary: >-
         Computer setup, Wi-Fi and networking, backups, security, and help
         choosing the right software for your shop or office.
     - title: Marketing & Social Media
       icon: "📣"
+      url: /services/marketing/
       summary: >-
         Logos, flyers, social media posts, and straightforward marketing
         plans that fit a small-town budget.
@@ -44,6 +47,7 @@
 
 - group: Soccer Coaching
   id: soccer
+  url: /services/soccer/
   items:
     - title: Soccer Training
       icon: "⚽"
@@ -58,6 +62,7 @@
 
 - group: Tutoring & Music Lessons
   id: tutoring
+  url: /services/tutoring-music/
   items:
     - title: Saxophone Lessons
       icon: "🎷"
@@ -89,6 +94,7 @@
 
 - group: Farm & Mechanical
   id: farm-mechanical
+  url: /services/farm-mechanical/
   items:
     - title: Farm Hand Help
       icon: "🚜"
@@ -108,6 +114,7 @@
 
 - group: For Families
   id: families
+  url: /services/families/
   items:
     - title: Home Tech Help
       icon: "🏠"
@@ -128,6 +135,7 @@
 
 - group: Honey Bees
   id: bees
+  url: /services/honey-bees/
   items:
     - title: Bee Swarm & Hive Removal
       icon: "🐝"
@@ -143,6 +151,7 @@
 
 - group: Learn Beekeeping
   id: beekeeping-lessons
+  url: /services/beekeeping-lessons/
   items:
     - title: Beginner Beekeeping Lessons
       icon: "📚"

@@ -1,0 +1,13 @@
+{% assign person = include.person %}
+<article class="team-card">
+  {% if person.photo != "" %}
+    <img class="avatar" src="{{ person.photo | relative_url }}" alt="Photo of {{ person.name }}">
+  {% else %}
+    <div class="avatar avatar-initials" aria-hidden="true">{{ person.name | slice: 0 }}</div>
+  {% endif %}
+  <h3>{{ person.name }}</h3>
+  {% comment %}"role" is a list like "Trumpet & Soccer" or "A, B & C"; each part becomes a tag.{% endcomment %}
+  {% assign roles = person.role | replace: " & ", ", " | split: ", " %}
+  <div class="role-tags">{% for r in roles %}<span class="role-tag">{{ r }}</span>{% endfor %}</div>
+  <p class="bio">{{ person.bio }}</p>
+</article>

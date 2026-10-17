@@ -1,0 +1,11 @@
+{% comment %}Cards for one Services group, e.g. {% include group-cards.html id="soccer" %}{% endcomment %}
+{% assign group = site.data.services | where: "id", include.id | first %}
+<div class="card-grid">
+  {% for item in group.items %}
+  <article class="card">
+    <span class="card-icon" aria-hidden="true">{{ item.icon }}</span>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.summary }}</p>
+  </article>
+  {% endfor %}
+</div>

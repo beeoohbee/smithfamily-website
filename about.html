@@ -22,16 +22,7 @@ description: Meet the Smith family — neighbors in Cameron, Missouri who use th
 <h2 class="team-heading">Meet the family</h2>
 <div class="team-grid">
   {% for person in site.data.team %}
-  <article class="team-card">
-    {% if person.photo != "" %}
-      <img class="avatar" src="{{ person.photo | relative_url }}" alt="Photo of {{ person.name }}">
-    {% else %}
-      <div class="avatar avatar-initials" aria-hidden="true">{{ person.name | slice: 0 }}</div>
-    {% endif %}
-    <h3>{{ person.name }}</h3>
-    {% if person.role != "" %}<p class="role">{{ person.role }}</p>{% endif %}
-    {% if person.bio != "" %}<p>{{ person.bio }}</p>{% endif %}
-  </article>
+    {% include team-card.html person=person %}
   {% endfor %}
 </div>
 
