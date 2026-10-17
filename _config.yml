@@ -30,7 +30,6 @@ destination: public
 
 exclude:
   - .idea
-  - .gitlab-ci.yml
   - Gemfile
   - Gemfile.lock
   - README.md

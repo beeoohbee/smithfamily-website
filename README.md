@@ -1,5 +1,5 @@
 # smithfamily-website
-GitLab Pages website for [smithfamily.co](https://smithfamily.co), built with [Jekyll](https://jekyllrb.com).
+Website for [smithfamily.co](https://smithfamily.co), built with [Jekyll](https://jekyllrb.com).
 
 ## Run locally
 
@@ -24,14 +24,17 @@ Photos go in `assets/img/` and are referenced from `_data/team.yml` (e.g. `photo
 
 ## Deployment
 
-Pushing to the default branch runs `.gitlab-ci.yml`, which builds the site into `public/` and publishes it to GitLab Pages. Other branches just run a test build.
+Pushing to `main` runs the **Deploy site to GitHub Pages** workflow (`.github/workflows/pages.yml`), which builds the site with the exact gems in `Gemfile.lock` and publishes it. Watch progress under the repo's **Actions** tab; a green check means it's live.
 
-### Custom domain (smithfamily.co)
+One-time setup, in the repo's **Settings → Pages**:
 
-In GitLab: **Deploy → Pages → New Domain**, add `smithfamily.co` (and optionally `www.smithfamily.co`), then add the DNS records GitLab shows you at your registrar:
+- **Source:** GitHub Actions
+- **Custom domain:** `smithfamily.co` (also stored in the `CNAME` file), with **Enforce HTTPS** checked
+- `url:` in `_config.yml` must match (`https://smithfamily.co`) so the sitemap and link previews use full addresses
 
-- `smithfamily.co` → `A` record to `35.185.44.232`
-- `_gitlab-pages-verification-code.smithfamily.co` → `TXT` record with the verification code
-- `www.smithfamily.co` → `CNAME` to `<namespace>.gitlab.io`
+### DNS for smithfamily.co
 
-Leave "Automatic certificate management using Let's Encrypt" enabled for HTTPS.
+At your registrar, point the domain at GitHub Pages:
+
+- `smithfamily.co` → `A` records to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+- `www.smithfamily.co` → `CNAME` to `beeoohbee.github.io`
