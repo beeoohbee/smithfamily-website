@@ -24,10 +24,12 @@ description: Family know-how for small businesses and families in and around Cam
       {% for group in site.data.services %}
         {% for item in group.items %}
           {% if item.featured %}
-          <a class="card card-link" href="{{ '/services/' | relative_url }}#{{ group.id }}">
+          {% if item.url %}{% assign card_href = item.url | relative_url %}{% else %}{% capture card_href %}{{ '/services/' | relative_url }}#{{ group.id }}{% endcapture %}{% endif %}
+          <a class="card card-link" href="{{ card_href }}">
             <span class="card-icon" aria-hidden="true">{{ item.icon }}</span>
             <h3>{{ item.title }}</h3>
             <p>{{ item.summary }}</p>
+            {% if item.url %}<span class="card-more">Learn more &rarr;</span>{% endif %}
           </a>
           {% endif %}
         {% endfor %}

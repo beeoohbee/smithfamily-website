@@ -1,11 +1,13 @@
 # Each group shows as a section on the Services page.
-# "icon" is any emoji; "featured: true" also shows the item on the homepage.
+# "icon" is any emoji; "featured: true" also shows the item on the homepage;
+# "url" links the card to its own page and adds a "Learn more" button.
 - group: For Small Businesses
   id: business
   items:
     - title: Websites & Online Presence
       icon: "🌐"
       featured: true
+      url: /services/websites/
       summary: >-
         Simple, fast websites, Google Business Profile setup, and domain &
         email configuration so customers can find you.

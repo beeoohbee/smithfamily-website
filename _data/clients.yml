@@ -1,0 +1,19 @@
+# Clients shown on the Websites & Online Presence page (/services/websites/).
+# "logo" lives in assets/img/clients/.
+- name: Cameron Dragons
+  url: https://camerondragons.com
+  logo: /assets/img/clients/camerondragons.png
+  description: >-
+    A community hub for Cameron, Missouri's booster clubs, sports teams, and
+    youth programs. It includes a full mini-site for the Cameron Sports
+    Boosters Association, with membership sign-up, officers, scholarships,
+    and a contact form.
+
+- name: CR Seeds & Services LLC
+  url: https://crseedsandservices.com
+  logo: /assets/img/clients/crseedsandservices.png
+  description: >-
+    A seed and agronomy business in Winston, Missouri that serves, guides, and
+    provides insights for farm families and their operations. We rebuilt
+    their WordPress site as a fast, low-maintenance website with their
+    products, FAQ, and testimonials.

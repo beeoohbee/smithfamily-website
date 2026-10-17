@@ -11,6 +11,7 @@
       {% for item in site.nav %}
         {% assign active = false %}
         {% if page.url == item.url %}{% assign active = true %}{% endif %}
+        {% if item.url != "/" and page.url contains item.url %}{% assign active = true %}{% endif %}
         <a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
       <a class="btn btn-small" href="mailto:{{ site.contact.email }}">Contact Us</a>

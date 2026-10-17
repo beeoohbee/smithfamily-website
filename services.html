@@ -17,11 +17,20 @@ description: Websites, IT support, marketing, home tech help, bee removal, local
   <h2>{{ group.group }}</h2>
   <div class="card-grid">
     {% for item in group.items %}
+    {% if item.url %}
+    <a class="card card-link" href="{{ item.url | relative_url }}">
+      <span class="card-icon" aria-hidden="true">{{ item.icon }}</span>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.summary }}</p>
+      <span class="card-more">Learn more &rarr;</span>
+    </a>
+    {% else %}
     <article class="card">
       <span class="card-icon" aria-hidden="true">{{ item.icon }}</span>
       <h3>{{ item.title }}</h3>
       <p>{{ item.summary }}</p>
     </article>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

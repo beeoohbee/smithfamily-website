@@ -1,0 +1,70 @@
+---
+layout: page
+title: Websites & Online Presence
+subtitle: Help customers find you, trust you, and reach you — at a price that fits a small business.
+permalink: /services/websites/
+cta: true
+description: Affordable websites, Google Business Profile setup, and domain and email for small businesses of any size in and around Cameron, Missouri.
+---
+<p class="breadcrumb"><a href="{{ '/services/' | relative_url }}">&larr; All services</a></p>
+
+<div class="prose">
+  <h2>Why an online presence matters</h2>
+  <p>Before most people call, visit, or buy, they look you up. If they can't find you — or find an out-of-date Facebook page and nothing else — they often move on to someone they can find. A clear, up-to-date presence online works for your business around the clock, even when you're busy running it.</p>
+</div>
+
+<div class="value-grid">
+  <article class="card">
+    <span class="card-icon" aria-hidden="true">🔎</span>
+    <h3>Get found</h3>
+    <p>Show up when neighbors search Google and Google Maps for what you do, with your hours, location, and phone number right there.</p>
+  </article>
+  <article class="card">
+    <span class="card-icon" aria-hidden="true">🤝</span>
+    <h3>Build trust</h3>
+    <p>A professional website and a matching email address tell customers you're established, reliable, and easy to do business with.</p>
+  </article>
+  <article class="card">
+    <span class="card-icon" aria-hidden="true">🕒</span>
+    <h3>Open 24/7</h3>
+    <p>Answer common questions, share your services and prices, and take messages any time of day — without picking up the phone.</p>
+  </article>
+  <article class="card">
+    <span class="card-icon" aria-hidden="true">📣</span>
+    <h3>Own your story</h3>
+    <p>Social media is great, but you don't control it. Your own website is a home base you own, that you can point everyone to.</p>
+  </article>
+</div>
+
+<div class="split">
+  <div class="prose">
+    <h2>Affordable for businesses of any size</h2>
+    <p>You don't need a big-city agency budget to look great online. Whether you're a one-person shop that needs a simple one-page site or an organization with several groups and pages, we build what fits your needs and your budget — nothing more.</p>
+    <p>We build fast, secure websites that cost very little to keep running, and we explain everything in plain English. If you'd like to make updates yourself, we'll show you how. If you'd rather not, just send us an email.</p>
+  </div>
+  <ul class="checklist">
+    <li><strong>Simple, fast websites</strong> that look good on phones, tablets, and computers.</li>
+    <li><strong>Google Business Profile</strong> setup so you appear on Google Search and Maps.</li>
+    <li><strong>Domain &amp; email</strong> — your own .com and a matching professional email address.</li>
+    <li><strong>Contact forms</strong> that send customer messages straight to your inbox.</li>
+    <li><strong>Search-friendly setup</strong> so local customers can find you.</li>
+    <li><strong>Ongoing help</strong> with updates and changes when you need them.</li>
+  </ul>
+</div>
+
+<section class="service-group" id="clients">
+  <h2>Our clients</h2>
+  <p class="lead">A few of the local organizations and businesses we've built websites for.</p>
+  <div class="client-grid">
+    {% for client in site.data.clients %}
+    <article class="card client-card">
+      <div class="client-logo">
+        <img src="{{ client.logo | relative_url }}" alt="{{ client.name }} logo" loading="lazy">
+      </div>
+      <h3>{{ client.name }}</h3>
+      <p class="client-url"><a href="{{ client.url }}">{{ client.url | remove: "https://" }}</a></p>
+      <p>{{ client.description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
